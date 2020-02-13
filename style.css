@@ -1,0 +1,131 @@
+/* 
+    Developer: Anubhav Singh
+    Course: Advanced CSS, Novasemita
+
+    Creating Simple Android Logo using HTML & CSS
+*/
+
+/* Resetting */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+/* main Section */
+.main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.mainAndroidDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* HEAD Section */
+.headAndroid{
+    position: relative;
+    width: 320px;
+    height: 170px;
+    background: #a4c639;
+    border-radius: 210px 210px 1px 1px;
+}
+
+.antenna1{
+    width: 10px;
+    height: 140px;
+    position: absolute;
+    top: -44px;
+    border-radius: 20px;
+    left: 5px;
+    transform: rotate(-30deg);
+    background-color: #a4c639;
+}
+.antenna2{
+    width: 10px;
+    height: 140px;
+    position: absolute;
+    top: -44px;
+    border-radius: 20px;
+    right: 5px;
+    transform: rotate(30deg);
+    background-color: #a4c639;
+}
+
+.eye1{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 90px;
+    border-radius: 50%;
+    left: 100px;
+    background-color: #fff;
+}
+
+.eye2{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 90px;
+    border-radius: 50%;
+    right: 100px;
+    background-color: #fff;
+}
+
+/* BODY Section */
+.bodyAndroid{
+    position: relative;
+    width: 320px;
+    height: 230px;
+    margin-top:10px;
+    background-color: #a4c639;
+    border-radius: 0 0 25px 25px;
+}
+
+.l_arm{
+    position: absolute;
+    width: 45px;
+    height: 180px;
+    background-color: #a4c639;
+    left: -60px;
+    border-radius: 40px;
+}
+
+.r_arm{
+    position: absolute;
+    width: 45px;
+    height: 180px;
+    background-color: #a4c639;
+    right: -60px;
+    border-radius: 40px;
+}
+
+.l_leg{
+    position: absolute;
+    width: 55px;
+    height: 120px;
+    background-color: #a4c639;
+    top: 240px;
+    left: 35px;
+    border-radius: 0 0 40px 40px;
+}
+
+.r_leg{
+    position: absolute;
+    width: 55px;
+    height: 120px;
+    background-color: #a4c639;
+    top: 240px;
+    right: 35px;
+    border-radius: 0 0 40px 40px;
+}
